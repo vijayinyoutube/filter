@@ -10,12 +10,15 @@ class _GetStartedPageState extends State<GetStartedPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("BackdropFilter"),
+      ),
       body: Container(
         decoration: BoxDecoration(
           color: Colors.grey.shade100.withOpacity(0.55),
           image: DecorationImage(
             image: AssetImage("images/color1.jpg"),
-            fit: BoxFit.contain,
+            fit: BoxFit.fill,
           ),
         ),
         child: Container(
@@ -24,7 +27,14 @@ class _GetStartedPageState extends State<GetStartedPage> {
             child: Container(
               width: (MediaQuery.of(context).size.width),
               height: (MediaQuery.of(context).size.height),
-              child: Text("vijaycreations"),
+              child: Center(
+                child: Image(
+                  image: AssetImage("images/color1.jpg"),
+                  width: (MediaQuery.of(context).size.width) - 150,
+                  height: (MediaQuery.of(context).size.width) - 200,
+                  fit: BoxFit.fill,
+                ),
+              ),
             ),
           ),
         ),
