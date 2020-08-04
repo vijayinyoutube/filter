@@ -10,6 +10,8 @@ This repo will help you in the usage of `Backdrop Filter widget` in Flutter. Usi
 
 Check out the video tutorial for this app: https://youtu.be/eyKL4S5Iw38
 
+also visit my channel for more: https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ
+
 <img src="https://user-images.githubusercontent.com/58719230/89027623-6e4f0580-d348-11ea-94d1-d596469d215d.png">
 
 ## Quick Look
